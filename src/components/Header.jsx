@@ -3,13 +3,9 @@ import Cart from './UI/Cart'
 
 const Header = () => {
   return (
-    <div className='h-20 flex justify-between items-center bg-black text-white mb-5'>
-      <div>
-        <h2 className='font-bold text-2xl mx-20'>Ecommerce</h2>
-      </div>
-      <div>
+    <div className='h-[80px] flex justify-between px-20 items-center bg-black text-white '>
+        <h2 className='font-bold text-2xl'>Ecommerce</h2>
         <Cart/>
-      </div>
     </div>
   )
 }

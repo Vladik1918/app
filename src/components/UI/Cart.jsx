@@ -3,11 +3,11 @@ import {FaShoppingCart}  from 'react-icons/fa'
 
 const Cart = () => {
   return (
-    <div className='mx-20 flex items-center'>
+    <div className=' flex relative items-center'>
       <button>
-      <FaShoppingCart className='flex items-center relative' size={28}/>
+      <FaShoppingCart className='flex items-center ' size={28}/>
       </button>
-      <span className='flex items-center absolute ml-5 mb-7 rounded-3xl bg-red-600 p-1'>1</span>
+      <span className='flex items-center absolute left-5 bottom-3 rounded-3xl bg-red-600 p-1'>1</span>
     </div>
   )
 }

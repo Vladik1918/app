@@ -1,9 +1,14 @@
 import React from 'react'
+import Header from '../Header'
 
 const Layout = ({children}) => {
   return (
     <div className=''>
-      {children}
+      <Header/>
+      <div className=' p-6 md:p-20'>
+        {children}
+      </div>
+      
     </div>
   )
 }
