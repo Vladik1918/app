@@ -65,6 +65,28 @@ const Cardsdata = [
         arrimg: "",
         qnty: 0,
     },
+    {
+        id: 7,
+        dish: "Hocco eatery",
+        imgData: "https://th.bing.com/th/id/OIP.GjIwCh89aXCNSbCMbriWkwHaE7?w=260&h=180&c=7&r=0&o=5&pid=1.7",
+        address: "North Indiad, biryani",
+        somedata: "500 + order placed from here resently",
+        price: 300,
+        rating: "3.8",
+        arrimg: "",
+        qnty: 0,
+    },
+    {
+        id: 8,
+        dish: "Hocco eatery",
+        imgData: "https://th.bing.com/th/id/OIP.GjIwCh89aXCNSbCMbriWkwHaE7?w=260&h=180&c=7&r=0&o=5&pid=1.7",
+        address: "North Indiad, biryani",
+        somedata: "500 + order placed from here resently",
+        price: 300,
+        rating: "3.8",
+        arrimg: "",
+        qnty: 0,
+    },
 ]
 
 export default Cardsdata;

@@ -8,15 +8,15 @@ const Home = () => {
   return (
     <section className="mx-20">
       <h2 className="font-bold text-3xl mb-16">Restaurents in Ahmedabad Open now</h2>
-      <div className='flex items-center '>
+      <div className='grid grid-cols-4 gap-5'>
       {cartData.map((item, id) => {
         return (
           <>
-            <div style={{width: 500}}
-              className="p-4 rounded-2xl border-2 border-gray-300 duration-100 ease-in-out mb-10 mr-10 items-center"
+            <div style={{width:400}}
+              className="p-4 rounded-2xl border-2 border-gray-300 items-center"
             >
-              <div className="rounded-lg mb-5">
-                <img className='bg-cover' src={item.imgData}></img>
+              <div className="rounded-lg  mb-5">
+                <img src={item.imgData}></img>
               </div>
 
               <div>
